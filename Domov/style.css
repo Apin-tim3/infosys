@@ -59,7 +59,20 @@
 #prehlad:hover {
     background-image: url(images/prehral_blue.png);
 }
+#flex_inside{
+    position: absolute;
+    left: 340px;
+    bottom: 0px;
+    top: 50px;
+    right: 0px;
+    display: flex;
+    border: solid 5px black;
 
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
 #user {
     display: flex;
     position: absolute;
@@ -84,11 +97,8 @@
 }
 
 #now {
-    position: absolute;
     width: 634px;
     height: 416px;
-    right: 40%;
-    top: 70px;
     color: white;
 
     flex-direction: column;
@@ -112,23 +122,34 @@
 }
 
 #home_rozvrh {
-    position: absolute;
     width: 634px;
     height: 401px;
-    right: 40%;
-    top: 520px;
 
     background: #FFFFFF;
     box-shadow: -7px 9px 5px rgba(0, 0, 0, 0.25);
     border-radius: 45px;
 }
+#home_rozvrh h1 {
+    color: #195ABC;
+    text-align: center;
+    margin: 30px 0px;
+}
+#home_rozvrh table {
+    border: solid black 2px;
+    border-collapse: collapse;
+}
+#home_rozvrh tr {
+
+}
+    
+#home_rozvrh td {
+
+}
+
 
 #oznamy {
-    position: absolute;
     width: 329px;
     height: 860px;
-    right: 20%;
-    top: 70px;
 
     background: #FFFFFF;
     box-shadow: -7px 9px 5px rgba(0, 0, 0, 0.25);
