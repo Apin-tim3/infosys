@@ -7,7 +7,7 @@
     </head>
     <body>
         <div id="sidebar">
-            <button id="home_button">Domov</button>
+            <a href="index.html"><button id="home_button">Domov</button></a>
             <button id="rozvrh">Rozvrh</button>
             <button id="zapis">Zápis</button>
             <button id="prehlad">Prehľad štúdia</button>
@@ -18,7 +18,12 @@
             <p>Meno Priezvisko</p>
             <div class="profile_pic"></div>
         </div>
+
+        <!--Pomocný kontajner pre zarovnanie objektov-->
         <div id="flex_inside">
+
+            <!--Tabulka ohľadom prebiehajúcej hodiny
+                nadpis, predmet, čas a miestnosť by sa mali generovať automaticky-->
             <div id="now">
                 <h1>Aplikovaná Informatika</h1>
                 <h2>Priebiehajúca hodina:</h2>
@@ -31,31 +36,59 @@
             </div>
             <div id="home_rozvrh">
                 <h1>Dnešný rozvrh</h1>
+
+
+                <!--Tabuľka sa bude automaticky generovať, toto je len preview-->
                 <table>
                     <tr>
-                        <td></td>
-                        <td></td>
+                        <th>8:25 - 10:15</td>
+                        <td class="predmet"><div class="hodina"><p>Angličtina pre informatikov III</p><p>Miestnosť H30</p></div></td>
                     </tr>
                     <tr>
-                        <td></td>
-                        <td></td>
+                        <th>10:15 - 12:05</td>
+                        <td class="predmet"><div class="hodina"><p>Úvod do databázových systémov</p><p>Miestnosť SMS35</p></div></td>
                     </tr>
                     <tr>
-                        <td></td>
-                        <td></td>
+                        <th>12:05 - 13:55</td>
+                        <td class="predmet"><div class="hodina"><p>Moderné programovacie jazyky</p><p>Miestnosť H.01</p></div></td>
                     </tr>
                     <tr>
-                        <td></td>
-                        <td></td>
+                        <th>13:55 - 15:45</td>
+                        <td class="predmet"><div class="hodina"><p>Operačné systémy</p><p>Miestnosť SMS35</p></div></td>
                     </tr>
                     <tr>
-                        <td></td>
-                        <td></td>
+                        <th>15:45 - 17:35</td>
+                        <td class="predmet"><div class="hodina"><p>Teoretické základy informatiky I</p><p>Miestnosť H1.0</p></div></td>
                     </tr>
                 </table>
             </div>
             <div id="oznamy">
-                
+                <h1>Oznamy</h1>
+                    <hr>
+                    <h2>Správa</h2>
+                    <p>Odio fermentum sodales venenatis sed arcu dignissim mauris,
+                        libero, sed. Felis ut lacus, nulla eu, rhoncus id egestas aliquam.
+                        Eros, congue sollicitudin nulla nunc, consequat quis odio tortor. 
+                        In quis nascetur quis sodales amet risus rutrum tincidunt. Enim.</p>
+                    <hr>
+                    <h2>Oznam</h2>
+                    <p>Odio fermentum sodales venenatis sed arcu dignissim mauris,
+                        libero, sed. Felis ut lacus, nulla eu, rhoncus id egestas aliquam.
+                        Eros, congue sollicitudin nulla nunc, consequat quis odio tortor. 
+                        In quis nascetur quis sodales amet risus rutrum tincidunt. Enim.</p>
+                    <hr>
+                    <h2>Zmena</h2>
+                    <p>Odio fermentum sodales venenatis sed arcu dignissim mauris,
+                        libero, sed. Felis ut lacus, nulla eu, rhoncus id egestas aliquam.
+                        Eros, congue sollicitudin nulla nunc, consequat quis odio tortor. 
+                        In quis nascetur quis sodales amet risus rutrum tincidunt. Enim.</p>
+                    <hr>
+                    <h2>Oznam</h2>
+                    <p>Odio fermentum sodales venenatis sed arcu dignissim mauris,
+                        libero, sed. Felis ut lacus, nulla eu, rhoncus id egestas aliquam.
+                        Eros, congue sollicitudin nulla nunc, consequat quis odio tortor. 
+                        In quis nascetur quis sodales amet risus rutrum tincidunt. Enim.</p>
+                    <hr>
             </div>
         </div>
         
