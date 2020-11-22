@@ -36,26 +36,26 @@
 #sidebar button:hover {background-color: white;
     color: #195ABC;}
 #home_button {
-    background-image: url(images/home.png);
+    background-image: url(./images/home.png);
 }
 #home_button:hover {
-    background-image: url(images/home_blue.png);
+    background-image: url(./images/home_blue.png);
 }
 #rozvrh {
-    background-image: url(images/kalendar.png);
+    background-image: url(./images/kalendar.png);
 }
 #rozvrh:hover {
-    background-image: url(images/kalendar_blue.png);
+    background-image: url(./images/kalendar_blue.png);
 }
 #zapis {
-    background-image: url(images/zapis.png);
+    background-image: url(./images/zapis.png);
 }
 #zapis:hover {
-    background-image: url(images/zapis_blue.png);
+    background-image: url(./images/zapis_blue.png);
 }
 #prehlad {
-    background-image: url(images/prehlad.png);
+    background-image: url(./images/prehlad.png);
 }
 #prehlad:hover {
-    background-image: url(images/prehral_blue.png);
+    background-image: url(./images/prehral_blue.png);
 }
