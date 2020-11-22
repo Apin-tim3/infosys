@@ -7,7 +7,7 @@
     </head>
     <body>
         <div id="sidebar">
-            <a href="home.html"><button id="home_button">Domov</button></a>
+            <a href="home.php"><button id="home_button">Domov</button></a>
             <a href="../Rozvrh/Rozvrh.html"><button id="rozvrh">Rozvrh</button></a>
             <button id="zapis">Zápis</button>
             <button id="prehlad">Prehľad štúdia</button>
