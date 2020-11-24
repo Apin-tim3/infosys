@@ -1,3 +1,7 @@
+*{
+    font-family: "Raleway";}
+}
+
 html,
 body {
   width: 100%;
@@ -8,60 +12,107 @@ body {
   background: #f5f7fa;
   padding: 40px 0;
   box-sizing: border-box;
-  font-family: Segoe UI;
+  /* font-family: Segoe UI; */
   color: #51565d;
+}
+
+#odbor { 
+    color: #195ABC;
+    font-size: 25px;
+    text-align: center;
 }
 
 table {
     width: 85%;
     margin: auto;
+    padding: 15px;
     overflow: hidden;
     box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
     border-radius: 25px;
+    border-spacing: 0px;
     background: #fff;
     max-width: 1200px;
 }
 
-.day {
-    table-layout: fixed;
-    width: 5%;
-    border-right: none;
-    border-bottom: none;
-    font-size: 17px;
-
-}
-
-
-.end {
-    border-right: none;
-}
-
-.bottom {
-    border-bottom: none;
-}
-
 td {
-    border-bottom: 1px solid rgba(166, 168, 179, 0.12);
-    border-right: 1px solid rgba(166, 168, 179, 0.12);
+    border: none;
+    border-bottom: 1px solid rgba(166, 168, 179, 0.192);
+    border-right: 1px solid rgba(166, 168, 179, 0.192); 
     text-align: left;
-    padding: 14px 20px;
+    padding: 22px 20px;     /* vyska riadkov, */
     letter-spacing: 1px;
     font-size: 12px;
     box-sizing: border-box;
-    color: #98a0a6;
+    color: #808a92;
     position: relative;
-    pointer-events: none;
-    z-index: 1;
+    z-index: 1; 
+}
+
+td:first-child {
+    border: none;
+    table-layout: fixed;
+    width: 5%;
+    font-size: 17px;
+}
+
+td:last-child {
+    border-right: none;
 }
 
 
-/*horny riadok*/
-th {
+table tr:first-child td {   /* prvy riadok s casom */
     font-size: 15px;
     text-transform: uppercase;
     color: #99a1a7;
     text-align: left;
-    border-bottom: 1px solid rgba(166, 168, 179, 0.12);
-    line-height: 50px;
+    border-top: none;
+    border-bottom: 1px solid rgba(166, 168, 179, 0.192);
+    line-height: 20px;
     font-weight: 500;
+}
+
+table tr:first-child td:first-child  {
+    border-bottom: none;
+}
+
+table tr:last-child td {
+    border-bottom: none;
+}
+
+.hodina {
+    /* position: absolute;
+    top: 4%;
+    left: 10px; */
+    width: auto;
+    height: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin: 0px;
+
+    color: #f5f7fa;
+    border-radius: 12px;
+    background: #195ABC;
+    z-index: -1;
+}
+
+ #item {     /*zabranuje prerezaniu elementu div tak, aby sa zmestil do stlpca */
+    position: absolute;
+    left: 10px;
+    top: 6px;
+}
+
+.hodina-name {
+    margin: 2px;
+    font-size: 14px;
+    white-space: nowrap; /*jeden riadkovy text*/
+}
+
+.hodina-miestnost {
+    margin: 2px;
+    font-size: 11px;
+}
+
+.hodina-cas {
+    margin: 2px;
+    font-size: 11px;
 }
