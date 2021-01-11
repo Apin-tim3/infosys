@@ -212,7 +212,7 @@ function GenerateRozvrhHome()
         $result = $stmt3->get_result();
         while ($row = $result->fetch_assoc()) 
         {
-            echo "<p>" . $row["miestnost_nazov"] . "</p></div></td></tr>";   
+            echo "<p>" . $row["miestnost_nazov"] . "</p><p>" . date("H:i", strtotime($rows[$i]["prebieha_datum_cas"])) . "</p></div></td></tr>";  
         }
     };
 
