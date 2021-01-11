@@ -56,38 +56,16 @@
                     </tr>-->
 
                     <?php
-                    GenerateRozvrhHome()
+                    GenerateRozvrhHome();
                     ?>
 
                 </table>
             </div>
             <div id="oznamy">
                 <h1>Oznamy</h1>
-                    <hr>
-                    <h2>Správa</h2>
-                    <p>Odio fermentum sodales venenatis sed arcu dignissim mauris,
-                        libero, sed. Felis ut lacus, nulla eu, rhoncus id egestas aliquam.
-                        Eros, congue sollicitudin nulla nunc, consequat quis odio tortor. 
-                        In quis nascetur quis sodales amet risus rutrum tincidunt. Enim.</p>
-                    <hr>
-                    <h2>Oznam</h2>
-                    <p>Odio fermentum sodales venenatis sed arcu dignissim mauris,
-                        libero, sed. Felis ut lacus, nulla eu, rhoncus id egestas aliquam.
-                        Eros, congue sollicitudin nulla nunc, consequat quis odio tortor. 
-                        In quis nascetur quis sodales amet risus rutrum tincidunt. Enim.</p>
-                    <hr>
-                    <h2>Zmena</h2>
-                    <p>Odio fermentum sodales venenatis sed arcu dignissim mauris,
-                        libero, sed. Felis ut lacus, nulla eu, rhoncus id egestas aliquam.
-                        Eros, congue sollicitudin nulla nunc, consequat quis odio tortor. 
-                        In quis nascetur quis sodales amet risus rutrum tincidunt. Enim.</p>
-                    <hr>
-                    <h2>Oznam</h2>
-                    <p>Odio fermentum sodales venenatis sed arcu dignissim mauris,
-                        libero, sed. Felis ut lacus, nulla eu, rhoncus id egestas aliquam.
-                        Eros, congue sollicitudin nulla nunc, consequat quis odio tortor. 
-                        In quis nascetur quis sodales amet risus rutrum tincidunt. Enim.</p>
-                    <hr>
+                    <?php
+                    GenerateOznam();
+                    ?>
             </div>
         </div>
         
