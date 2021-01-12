@@ -1,65 +1,20 @@
-* {
-    margin: 0; padding: 0;
-    font-family: "Raleway";}
-#sidebar {
-    position: fixed;
-    display: flex;
-    flex-direction: column;
-    width: 340px;
-    left: 0px;
-    top: 0px;
-    bottom: 0px;
-
-    background: #195ABC;
-    justify-content: center;
-    align-items: center;}
-#sidebar button {
-    text-align: center;
-    text-indent: 50px;
-    font-size: 30px;
-    color:  white;
-
-    width: 300px;
-    height: 60px;
-    border-top-left-radius: 60px;
-    border-bottom-left-radius: 60px;
-    border: none;
-    
-    background-color: rgba(0, 0, 255, 0);
-    background-repeat: no-repeat;
-    background-position-x: 20px;
-    background-position-y: center;
-
-    margin: 20px 0px;
-    margin-left: 40px;
-}
-#sidebar button:hover {background-color: white;
-    color: #195ABC;}
-#home_button {
-    background-image: url(../images/home.png);
-}
-#home_button:hover {
-    background-image: url(../images/home_blue.png);
-}
-#rozvrh {
-    background-image: url(../images/kalendar.png);
-}
-#rozvrh:hover {
-    background-image: url(../images/kalendar_blue.png);
-}
-#zapis {
-    background-image: url(../images/zapis.png);
-}
-#zapis:hover {
-    background-image: url(../images/zapis_blue.png);
-}
-#prehlad {
-    background-image: url(../images/prehlad.png);
-}
-#prehlad:hover {
-    background-image: url(../images/prehral_blue.png);
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Raleway";
 }
 
+
+body {
+  width: 100%;
+  height: 100%;
+  background: #f5f7fa;
+  padding: 40px 0;
+  box-sizing: border-box;
+  color: #51565d;
+
+}
+  
 #user {
     display: flex;
     position: absolute;
@@ -76,6 +31,7 @@
 
     background: #c4c4c400;
 }
+
 #user .profile_pic {
     border: solid black 1px;
     border-radius: 40px;
@@ -84,33 +40,47 @@
     width: 40px;
 }
 
+/* ZAPISNE LISTY */
+
+img{
+  position: relative;
+  width: 30px;
+  height: auto;
+}
+
 #prvy {
   position: absolute;
-  width: 974px;
-  height: 336px;
-  left: 402px;
-  top: 99px;
 
-  background-color: white;
+  left: 30%;
+  top: 15%;
+  width: 45%;
+  height: auto;
 
-  box-shadow: -7px 9px 5px rgba(0, 0, 0, 0.25);
-  border-radius: 45px;
+  margin: auto;
+  padding: 15px;
+  overflow: hidden;
+
+  box-shadow: 7px 5px 20px rgba(26, 32, 51, 0.247);
+  border-radius: 25px;
+  border-spacing: 0px;
+  background: #fff;
+  max-width: 1200px;
 
   text-align: center;
 }
 
 #prvy table {
-    margin: 0 auto;
+  margin: auto;
   width: 80%;
   height: auto;
 }
 
 #prvy table tr {
   height: 70px;
-  
 }
-#prvy table th{
-}
+/* #prvy table th{
+} */
+
 #prvy button {
 border-radius: 15px;
 background-color: #195ABC;
@@ -124,36 +94,49 @@ background-position: 25px ;
 }
 
 #prvy h1{
+  font-size: 30px;
   color: #195ABC;
 }
 
 
+/* SKUSKY */
+
 #druhy {
   position: absolute;
-  width: 974px;
-  height: 336px;
-  left: 402px;
-  top: 459px;
+  
+  top: 70%;
+  left: 30%;
+  width: 45%;
+  height: auto;
 
-  background: #FFFFFF;
+  margin: auto;
+  /* margin-bottom: 20px; */
 
-  box-shadow: -7px 9px 5px rgba(0, 0, 0, 0.25);
-  border-radius: 45px;
+  padding: 15px;
+  overflow: hidden;
+
+  box-shadow: 7px 5px 20px rgba(26, 32, 51, 0.247);
+  border-radius: 25px;
+  border-spacing: 0px;
+  background: #fff;
+  max-width: 1200px;
+
   text-align: center;
 }
 
 #druhy table {
-    margin: 0 auto;
+  margin: auto;
   width: 80%;
   height: auto;
 }
 
 #druhy table tr {
   height: 50px;
-  
 }
-#druhy table th{
-}
+
+  /* #druhy table th{
+  } */
+
 #druhy button {
 border-radius: 10px;
 background-color: #195ABC;
@@ -167,5 +150,6 @@ background-position: 25px ;
 }
 
 #druhy h1{
+  font-size: 30px;
   color: #195ABC;
 }

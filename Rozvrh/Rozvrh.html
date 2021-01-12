@@ -4,20 +4,31 @@
     <head>
         <meta charset="UTF-8">
         <meta name="description" content="Rozvrh hodin">
-            
         <link rel= "stylesheet" href="style.css">
-        <title>Rozvrh</title>
+        <link rel="stylesheet" href="../sidebar.css">
 
+        <title>Rozvrh</title>
     </head>
 
     <body>
-
-        <div id="sidebar">
-            <button id="home_button">Domov</button>
-            <button id="rozvrh">Rozvrh</button>
-            <button id="zapis">Zápis</button>
-            <button id="prehlad">Prehľad štúdia</button>
+        <div id="sidebar">        
+            <a href="../Domov/home.php"><button id="home_button">Domov</button></a>
+            <a href="../Rozvrh/Rozvrh.html"><button id="rozvrh">Rozvrh</button></a>
+            <a href="../zapisy/zapis.html"><button id="zapis">Zápis</button></a>
+            <button id="prehlad">Prehľad<br>štúdia</button>
         </div>
+        
+        <div id="user">
+            <img src="../images/message.png">
+            <img src="../images/open.png">
+            <p>Meno Priezvisko</p>
+            <div class="profile_pic"></div>
+        </div>
+
+        <!-- <?php include 'funckie.php';
+            LoginName();
+        ?> -->
+
 
         <h1> </h1> 
 
@@ -27,7 +38,7 @@
 
        <h1 id="odbor">Aplikovana informatika</h1>
         <table>
-            <!-- <thead> -->
+            
                 <tr>
                   <td></td>
                   <td></td>
@@ -37,15 +48,14 @@
                   <td></td>
                   <td></td>
                 </tr>
-              <!-- </thead> -->
-              <!-- <tbody> -->
+         
                 <tr>
                     <td>Pon</td>
                     <td>        
                         <div id="item" class="hodina">
                             <p class="hodina-name">Teoreticke zaklady informatiky</p>
                             <p class="hodina-miestnost">Miestnost 233</p>
-                            <p class="hodina-cas">08:00 - 9:45</p>
+                            <p class="hodina-cas">08:25 - 9:45</p>
                         </div>
                     </td>
                     <td></td>
@@ -53,7 +63,7 @@
                         <div id="item" class="hodina">
                             <p class="hodina-name">Pocitacova grafika</p>
                             <p class="hodina-miestnost">Miestnost 101</p>
-                            <p class="hodina-cas">10:15 - 12:00</p>
+                            <p class="hodina-cas">10:15 - 11:00</p>
                         </div>
                     </td>
                     <td></td>
@@ -77,7 +87,7 @@
                         <div id="item" class="hodina">
                             <p class="hodina-name">Teoreticke zaklady informatiky</p>
                             <p class="hodina-miestnost">Miestnost 233</p>
-                            <p class="hodina-cas">08:00 - 9:45</p>
+                            <p class="hodina-cas">10:15 - 12:05</p>
                         </div>
                     </td>
                     <td></td>
@@ -102,7 +112,7 @@
                         <div id="item" class="hodina">
                             <p class="hodina-name">Teoreticke zaklady informatiky</p>
                             <p class="hodina-miestnost">Miestnost 233</p>
-                            <p class="hodina-cas">08:00 - 9:45</p>
+                            <p class="hodina-cas">14:45 - 16:00</p>
                         </div>
                     </td>
                     <td></td>
@@ -117,9 +127,8 @@
                     <td></td>
                     <td></td>
                 </tr>
-              <!-- </tbody> -->
+              
         </table>
-
 
     </body>
     

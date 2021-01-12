@@ -1,0 +1,75 @@
+#sidebar {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    background: #195ABC;
+    justify-content: center;
+    align-items: left;
+    z-index: 100;
+}
+
+#sidebar button {
+    text-align: center;
+    /* text-indent: 25%;*/
+    font-size: 20px;
+    color:  white;
+
+    width: 95%;
+    height: 60px;
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 60px;
+    border: none;
+    
+    background-color: rgba(0, 0, 255, 0);
+    background-repeat: no-repeat;
+    background-position-x: 12%;
+    background-position-y: center;
+
+    padding-left: 20%;
+    margin: 20px 0px;
+    margin-left: 5%;
+}
+#sidebar button:hover {
+    background-color: white;
+    color: #195ABC;
+}
+#home_button {
+    background-image: url(images/home.png);
+    background-size: 30px;
+}
+#home_button:hover {
+    background-image: url(images/home_blue.png);
+    background-size: 30px;
+    font-weight: bold;
+}
+#rozvrh {
+    background-image: url(images/kalendar.png);
+    background-size: 30px;
+}
+#rozvrh:hover {
+    background-image: url(images/kalendar_blue.png);
+    background-size: 30px;
+    font-weight: bold;
+}
+#zapis {
+    background-image: url(images/zapis.png);
+    background-size: 30px;
+}
+#zapis:hover {
+    background-image: url(images/zapis_blue.png);
+    background-size: 30px;
+    font-weight: bold;
+}
+#prehlad {
+    background-image: url(images/prehlad.png);
+    background-size: 30px;
+}
+#prehlad:hover {
+    background-image: url(images/prehral_blue.png);
+    background-size: 30px;
+    font-weight: bold;
+}

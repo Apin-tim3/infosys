@@ -1,33 +1,46 @@
 *{
-    font-family: "Raleway";}
+    margin: 0;
+    padding: 0;
+    font-family: "Raleway";
 }
 
-html,
-body {
+
+html {
   width: 100%;
   height: 100%;
-}
-
-body {
   background: #f5f7fa;
   padding: 40px 0;
   box-sizing: border-box;
-  /* font-family: Segoe UI; */
   color: #51565d;
+} 
+
+body {
+    width: 100%;
+    height: 100%;
+    background: #f5f7fa;
+    padding: 40px 0;
+    box-sizing: border-box;
+    color: #51565d;
 }
 
-#odbor { 
+#odbor {  /* Nazov odboru (napr. aplikovana informatika) hore*/
+    position: fixed;
+    top: 15%;
+    left: 45%; 
     color: #195ABC;
     font-size: 25px;
     text-align: center;
 }
 
 table {
-    width: 85%;
+    position: absolute;
+    left: 20%;
+    /*margin-left: 50%;*/
+    width: 75%;
     margin: auto;
     padding: 15px;
     overflow: hidden;
-    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 7px 5px 20px rgba(26, 32, 51, 0.158);
     border-radius: 25px;
     border-spacing: 0px;
     background: #fff;
@@ -39,7 +52,7 @@ td {
     border-bottom: 1px solid rgba(166, 168, 179, 0.192);
     border-right: 1px solid rgba(166, 168, 179, 0.192); 
     text-align: left;
-    padding: 22px 20px;     /* vyska riadkov, */
+    padding: 22px 20px;     /* vyska riadkov */
     letter-spacing: 1px;
     font-size: 12px;
     box-sizing: border-box;
@@ -80,9 +93,6 @@ table tr:last-child td {
 }
 
 .hodina {
-    /* position: absolute;
-    top: 4%;
-    left: 10px; */
     width: auto;
     height: auto;
     padding-left: 12px;
@@ -115,4 +125,42 @@ table tr:last-child td {
 .hodina-cas {
     margin: 2px;
     font-size: 11px;
+}
+
+
+#flex_inside{
+    position: absolute;
+    left: 340px;
+    bottom: 0px;
+    top: 50px;
+    right: 0px;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+#user {
+    display: flex;
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    right: 0px;
+    top: 0px;
+
+    font-size: 14pt;
+
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    background: #c4c4c400;
+}
+#user .profile_pic {
+    border: solid black 1px;
+    border-radius: 40px;
+
+    height: 40px;
+    width: 40px;
 }
